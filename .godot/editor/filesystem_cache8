@@ -1,0 +1,82 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695328394
+Deck.gd::GDScript::-1::1691770072::0::1::::<>RefCounted<>::
+default_env.tres::Environment::323373700182700060::1694987168::0::1::::<><>::
+icon.png::CompressedTexture2D::3368461190541488047::1688496848::1690146423::1::::<><>::
+::res://Assets/::1694015384
+::res://Assets/Background/::1694987167
+DiscardPile.gd::GDScript::-1::1694530224::0::1::::<>TextureButton<>::
+DrawCard.gd::GDScript::-1::1694030263::0::1::::<>TextureButton<>::
+KenteBackground.jpg::CompressedTexture2D::2655221734292631114::1690252943::1690253058::1::::<><>::
+Node.tscn::PackedScene::-1::1690146365::0::1::::<><>::res://Card.gd
+playspace.gd::GDScript::-1::1694656444::0::1::::<>Node2D<>::
+playspace.tscn::PackedScene::8351071835808472507::1694987167::0::1::::<><>::uid://bd3hd4242cqkw::::res://Assets/Background/KenteBackground.jpg<>res://Assets/Background/playspace.gd<>uid://sd5lvemne6ld::::res://Assets/Cards/cardBackgrounds/back_black_basic.png<>uid://c6drdytylawu2::::res://Assets/Cards/cardBackgrounds/back_blue_basic.png<>uid://kqhq18btwkt6::::res://Assets/Cards/Card Borders etc/Gold_Border.png<>res://Assets/Background/DrawCard.gd<>uid://bof55lr37pbwd::::res://Assets/Cards/cardBackgrounds/back_blue_basic_white.png<>res://Assets/Background/DiscardPile.gd
+TextureButton.gd::GDScript::-1::1691783049::0::1::::<>TextureButton<>::
+::res://Assets/Cards/::1694987168
+CardBase.gd::GDScript::-1::1694653740::0::1::::<>MarginContainer<>::
+CardSlot.gd::GDScript::-1::1694530224::0::1::::<>MarginContainer<>::
+card_base.tscn::PackedScene::2411088327241552158::1694987168::0::1::::<><>::res://Assets/Cards/CardBase.gd<>uid://kcto6pc1uws8::::res://Assets/Cards/Card Borders etc/cardborder.png<>uid://sd5lvemne6ld::::res://Assets/Cards/cardBackgrounds/back_black_basic.png<>uid://kqhq18btwkt6::::res://Assets/Cards/Card Borders etc/Gold_Border.png
+card_slot.tscn::PackedScene::4260447579135548117::1694987165::0::1::::<><>::res://Assets/Cards/CardSlot.gd<>uid://bydspeni5kb8k::::res://Assets/GUI/CardBase1.png
+Database.gd::GDScript::-1::1690337871::0::1::::<>Node<>::
+::res://Assets/Cards/Card Borders etc/::1694043218
+background shade.png::CompressedTexture2D::553004489783398016::1554380480::1691789331::1::::<><>::
+BackgroundImage.png::CompressedTexture2D::9011186847920393180::1588867108::1691789331::1::::<><>::
+Back_Texture.png::CompressedTexture2D::1823941317117848923::1588523548::1691789331::1::::<><>::
+blank_front_with_num_boarders_white.png::CompressedTexture2D::5569893158852860869::1564339788::1693849449::1::::<><>::
+cardborder.png::CompressedTexture2D::707197467388023197::1588866760::1691789331::1::::<><>::
+Gold_Border.png::CompressedTexture2D::735373488754476045::1588523548::1691789331::1::::<><>::
+::res://Assets/Cards/cardBackgrounds/::1693849449
+back_black_basic.png::CompressedTexture2D::1271434581995071589::1564339770::1693849449::1::::<><>::
+back_black_basic_white.png::CompressedTexture2D::6421173600277982301::1564339776::1693849449::1::::<><>::
+back_blue_basic.png::CompressedTexture2D::6955927490702993291::1564339782::1693849449::1::::<><>::
+back_blue_basic_white.png::CompressedTexture2D::3381262072330066859::1564339794::1693849449::1::::<><>::
+back_red_basic.png::CompressedTexture2D::6912901851543200391::1564339800::1693849449::1::::<><>::
+back_red_basic_white.png::CompressedTexture2D::2370932927298263957::1564339758::1693849449::1::::<><>::
+Back_Texture.png::CompressedTexture2D::3427605620086996016::1589646604::1693600005::1::::<><>::
+Card Background.jpg::CompressedTexture2D::1651637274372840555::1691788847::1693600005::1::::<><>::
+::res://Assets/Cards/Playing Cards/::1693849449
+ace_clubs_white.png::CompressedTexture2D::5891241408133309781::1564339712::1693599721::1::::<><>::
+ace_diamonds_white.png::CompressedTexture2D::3797739926090295176::1564339724::1693599721::1::::<><>::
+ace_hearts_white.png::CompressedTexture2D::3810649912692732243::1564339690::1693599721::1::::<><>::
+ace_spades_white.png::CompressedTexture2D::7311644868985261633::1564339738::1693599721::1::::<><>::
+eight_clubs_white.png::CompressedTexture2D::4876723909854377697::1564339492::1693849449::1::::<><>::
+eight_diamonds_white.png::CompressedTexture2D::7636819433749741014::1564339438::1693849449::1::::<><>::
+eight_hearts_white.png::CompressedTexture2D::6403002615377720279::1564339452::1693849449::1::::<><>::
+eight_spades_white.png::CompressedTexture2D::4553967887446474047::1564339484::1693849449::1::::<><>::
+jack_clubs_white.png::CompressedTexture2D::6607284349038417280::1564339864::1693599721::1::::<><>::
+jack_diamonds_white.png::CompressedTexture2D::5511585603773046283::1564339822::1693599721::1::::<><>::
+jack_hearts_white.png::CompressedTexture2D::1499159882716958111::1564339838::1693599721::1::::<><>::
+jack_spades_white.png::CompressedTexture2D::627162120539387057::1564339850::1693599721::1::::<><>::
+joker_white.png::CompressedTexture2D::6605900995195665322::1564339896::1693599721::1::::<><>::
+king_clubs_white.png::CompressedTexture2D::3276661825698265518::1564339952::1693599721::1::::<><>::
+king_diamonds_white.png::CompressedTexture2D::2221265179237209072::1564339964::1693599721::1::::<><>::
+king_hearts_white.png::CompressedTexture2D::5234742224629483963::1564339928::1693599721::1::::<><>::
+king_spades_white.png::CompressedTexture2D::6941864708256996842::1564339976::1693599721::1::::<><>::
+nine_clubs_white.png::CompressedTexture2D::8376661538633121242::1564339520::1693849449::1::::<><>::
+nine_diamonds_white.png::CompressedTexture2D::2816655805312426439::1564339546::1693849449::1::::<><>::
+nine_hearts_white.png::CompressedTexture2D::6215276944721256384::1564339538::1693849449::1::::<><>::
+nine_spades_white.png::CompressedTexture2D::961875309378339086::1564339532::1693849449::1::::<><>::
+queen_clubs_white.png::CompressedTexture2D::1666483595372941679::1564340006::1693599721::1::::<><>::
+queen_diamonds_white.png::CompressedTexture2D::3564750033614825299::1564340020::1693599721::1::::<><>::
+queen_hearts_white.png::CompressedTexture2D::5432896509968874046::1564340038::1693599721::1::::<><>::
+queen_spades_white.png::CompressedTexture2D::3856734886465519809::1564340030::1693599721::1::::<><>::
+seven_clubs_white.png::CompressedTexture2D::6258669071309895048::1564339348::1693849449::1::::<><>::
+seven_diamonds_white.png::CompressedTexture2D::1282872704007611869::1564339364::1693849449::1::::<><>::
+seven_hearts_white.png::CompressedTexture2D::8300077290534301913::1564339414::1693849449::1::::<><>::
+seven_spades_white.png::CompressedTexture2D::4864371706776883764::1564339378::1693849449::1::::<><>::
+six_clubs_white.png::CompressedTexture2D::2620349406717153226::1564339290::1693849449::1::::<><>::
+six_diamonds_white.png::CompressedTexture2D::4487142611265743542::1564339304::1693849449::1::::<><>::
+six_hearts_white.png::CompressedTexture2D::4994958137882645318::1564339264::1693849449::1::::<><>::
+six_spades_white.png::CompressedTexture2D::6621832035442270095::1564339318::1693849449::1::::<><>::
+ten_clubs_white.png::CompressedTexture2D::3706433027857592518::1564339592::1693849449::1::::<><>::
+ten_diamonds_white.png::CompressedTexture2D::8726096691726812896::1564339606::1693849449::1::::<><>::
+ten_hearts_white.png::CompressedTexture2D::4358146302413620160::1564339646::1693849449::1::::<><>::
+ten_spades_white.png::CompressedTexture2D::5020121036522566167::1564339670::1693849449::1::::<><>::
+::res://Assets/GUI/::1694015055
+background shade.png::CompressedTexture2D::3418039432869126898::1592164022::1694015055::1::::<><>::
+CardBase1.png::CompressedTexture2D::4078265987626254176::1592164024::1694015055::1::::<><>::
+CardBase2.png::CompressedTexture2D::111383294158931309::1592164024::1694015055::1::::<><>::
+label_HP.png::CompressedTexture2D::6473614387067557491::1554376880::1694015055::1::::<><>::
+label_HP_bg.png::CompressedTexture2D::1319854385590012642::1554376880::1694015055::1::::<><>::
+lifebar_bg.png::CompressedTexture2D::1878327678069131220::1554376880::1694015055::1::::<><>::
+lifebar_fill.png::CompressedTexture2D::3496935656384985410::1554376880::1694015055::1::::<><>::

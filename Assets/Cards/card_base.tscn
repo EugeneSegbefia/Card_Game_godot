@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://bal7ji804dqaw"]
+
+[ext_resource type="Script" path="res://Assets/Cards/CardBase.gd" id="1_1v2w4"]
+[ext_resource type="Texture2D" uid="uid://kcto6pc1uws8" path="res://Assets/Cards/Card Borders etc/cardborder.png" id="2_55ptm"]
+[ext_resource type="Texture2D" uid="uid://sd5lvemne6ld" path="res://Assets/Cards/cardBackgrounds/back_black_basic.png" id="3_jv2ci"]
+[ext_resource type="Texture2D" uid="uid://kqhq18btwkt6" path="res://Assets/Cards/Card Borders etc/Gold_Border.png" id="4_ttpkj"]
+
+[node name="DummyRoot" type="Node2D"]
+
+[node name="CardBase" type="MarginContainer" parent="."]
+offset_right = 250.0
+offset_bottom = 350.0
+script = ExtResource("1_1v2w4")
+
+[node name="cardface" type="Sprite2D" parent="CardBase"]
+centered = false
+
+[node name="Border" type="Sprite2D" parent="CardBase"]
+texture = ExtResource("2_55ptm")
+centered = false
+
+[node name="cardback" type="Sprite2D" parent="CardBase"]
+texture = ExtResource("3_jv2ci")
+centered = false
+
+[node name="focus" type="TextureButton" parent="CardBase"]
+layout_mode = 2
+texture_hover = ExtResource("4_ttpkj")
+stretch_mode = 0
+
+[connection signal="mouse_entered" from="CardBase/focus" to="CardBase" method="_on_focus_mouse_entered"]
+[connection signal="mouse_exited" from="CardBase/focus" to="CardBase" method="_on_focus_mouse_exited"]

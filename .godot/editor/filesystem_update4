@@ -1,0 +1,7 @@
+res://default_env.tres
+res://Assets/Cards/card_base.tscn
+res://Assets/Cards/CardBase.gd
+res://Assets/Background/playspace.tscn
+res://Assets/Cards/card_slot.tscn
+res://Assets/Background/playspace.gd
+res://Assets/Cards/CardSlot.gd

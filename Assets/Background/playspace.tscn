@@ -1,0 +1,56 @@
+[gd_scene load_steps=9 format=3 uid="uid://dq8k6yt1dybjv"]
+
+[ext_resource type="Texture2D" uid="uid://bd3hd4242cqkw" path="res://Assets/Background/KenteBackground.jpg" id="1_5yqcr"]
+[ext_resource type="Script" path="res://Assets/Background/playspace.gd" id="1_xb8c1"]
+[ext_resource type="Texture2D" uid="uid://sd5lvemne6ld" path="res://Assets/Cards/cardBackgrounds/back_black_basic.png" id="3_1p2gg"]
+[ext_resource type="Texture2D" uid="uid://c6drdytylawu2" path="res://Assets/Cards/cardBackgrounds/back_blue_basic.png" id="4_6hbpl"]
+[ext_resource type="Texture2D" uid="uid://kqhq18btwkt6" path="res://Assets/Cards/Card Borders etc/Gold_Border.png" id="4_gcfs0"]
+[ext_resource type="Script" path="res://Assets/Background/DrawCard.gd" id="5_2n05p"]
+[ext_resource type="Texture2D" uid="uid://bof55lr37pbwd" path="res://Assets/Cards/cardBackgrounds/back_blue_basic_white.png" id="7_syl1c"]
+[ext_resource type="Script" path="res://Assets/Background/DiscardPile.gd" id="8_i3rpa"]
+
+[node name="Playspace" type="Node2D"]
+script = ExtResource("1_xb8c1")
+
+[node name="GameSlots" type="Node" parent="."]
+
+[node name="CardsInPlay" type="Node" parent="."]
+
+[node name="Cards" type="Node" parent="."]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(575.875, 324)
+scale = Vector2(0.598828, 0.504687)
+texture = ExtResource("1_5yqcr")
+
+[node name="Deck" type="Node" parent="."]
+
+[node name="DeckDraw" type="TextureButton" parent="Deck"]
+anchors_preset = -1
+anchor_right = 0.112
+anchor_bottom = 0.23
+offset_left = 983.0
+offset_top = 289.0
+offset_right = 893.976
+offset_bottom = 195.96
+texture_normal = ExtResource("3_1p2gg")
+texture_pressed = ExtResource("3_1p2gg")
+texture_hover = ExtResource("4_6hbpl")
+texture_disabled = ExtResource("4_gcfs0")
+script = ExtResource("5_2n05p")
+metadata/_edit_group_ = true
+
+[node name="Discard" type="Node" parent="."]
+
+[node name="DiscardPile" type="TextureButton" parent="Discard"]
+offset_left = 69.0
+offset_top = 290.0
+offset_right = 129.0
+offset_bottom = 374.0
+texture_normal = ExtResource("7_syl1c")
+texture_pressed = ExtResource("7_syl1c")
+texture_hover = ExtResource("4_6hbpl")
+texture_disabled = ExtResource("4_gcfs0")
+script = ExtResource("8_i3rpa")
+
+[connection signal="pressed" from="Deck/DeckDraw" to="Deck/DeckDraw" method="_on_pressed"]

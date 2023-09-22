@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1x17jie7gqc8"]
+
+[ext_resource type="Script" path="res://Assets/Cards/CardSlot.gd" id="1_wyttq"]
+[ext_resource type="Texture2D" uid="uid://bydspeni5kb8k" path="res://Assets/GUI/CardBase1.png" id="2_gg8oq"]
+
+[node name="CardSlot" type="MarginContainer"]
+script = ExtResource("1_wyttq")
+
+[node name="Slot" type="Sprite2D" parent="."]
+scale = Vector2(1.29343, 1.02395)
+texture = ExtResource("2_gg8oq")
+centered = false
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
